@@ -29,11 +29,12 @@ a{
 }
 
 /*------------Home Content-----------*/
-body{
+.nav-content{
     background-image: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 80%;
+    background-position: center center;
+    height:950px;
 }
 
 #home-content{
