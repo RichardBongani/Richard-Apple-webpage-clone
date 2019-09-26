@@ -1,12 +1,5 @@
-html{
-    margin: 0;
-    padding: 0;
-}
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
 
-}
 
 /*-----------nav---------------*/
 #nav-link{
@@ -29,15 +22,16 @@ a{
 }
 
 /*------------Home Content-----------*/
-.nav-content{
+html {
     background-image: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
     background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    background-position: center 110%;
     background-repeat: no-repeat;
-    background-position: center center;
-    height:950px;
-}
+  }
 
-#home-content{
+#home{
     text-align: center;
     color: white;
     font-size: 30px;
@@ -49,4 +43,81 @@ a{
 .question{
     font-size: 70px!important;
     font-weight:lighter;
+}
+
+.column{
+    float:right;
+    width:25%;
+    
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.about-apple{
+    position: relative;
+    bottom:60px;
+}
+
+.link{
+    color:#1E90FF!important;
+}
+
+.details-terms{
+    position: relative;
+    bottom: 50px;
+    left:150px;
+    font-size:13px;
+    color:rgb(105,105,105);
+}
+
+.nav-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-link{
+display: inline;
+position: relative;
+bottom: 5px;
+font-size: 15px;
+}
+
+a{
+color:#1E90FF;
+}
+
+.my-us-image{
+    border-radius:150px;
+    width:15px;
+    height:15px;
+}
+.USA-flag{
+    float: right;
+    position: relative;
+    bottom:2px;
+    top:3px;
+    left: 4px;
+}
+
+.nav-container{
+    float: right;
+    position: relative;
+    bottom: 120px;
+    right:120px;
+    height: 5px;
+}
+
+.about-apple{
+    position: relative;
+    top:103px;
+    right:23px;
+}
+
+.more-information{
+    position: relative;
+    top:150px;
 }
