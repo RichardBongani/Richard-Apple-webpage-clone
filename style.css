@@ -7,6 +7,12 @@
     margin: 10px;  
 }
 
+.my-apple{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
 
 a{
     text-decoration: none;
@@ -79,7 +85,7 @@ html {
     text-decoration: none;
 }
 
-.nav-link{
+.nav-link2{
 display: inline;
 position: relative;
 bottom: 5px;
@@ -113,11 +119,18 @@ color:#1E90FF;
 
 .about-apple{
     position: relative;
-    top:103px;
+    top:100px;
     right:23px;
 }
 
 .more-information{
     position: relative;
     top:150px;
+}
+
+#nav-list{
+    background-color:	rgb(72,72,72); 
+    width: 750px;
+    height: 30px;
+    border-radius: 5px;
 }
