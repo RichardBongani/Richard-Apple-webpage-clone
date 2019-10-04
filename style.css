@@ -1,11 +1,11 @@
-
 #nav-link {
   display: inline;
   margin: 10px; 
+
 }
 
-#nav-link > a {
-  color:white;
+a > #nav-link {
+  color: white;
 }
 
 .my-apple {
@@ -54,7 +54,7 @@ html {
   width: 25%;  
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -63,10 +63,12 @@ html {
 .about-apple {
   position: relative;
   bottom: 85px;
+  top: 90px;
+  right: 23px;
 }
 
 .link {
-  color: #1E90FF !important;
+  color: #1e90ff!important;
 }
 
 .details-terms {
@@ -90,7 +92,8 @@ html {
 }
 
 a {
-  color: #1E90FF; 
+  color: #1e90ff; 
+
 }
 
 .my-us-image {
@@ -115,19 +118,13 @@ a {
   height: 5px;
 }
 
-.about-apple {
-  position: relative;
-  top: 90px;
-  right: 23px;
-}
-
 .more-information {
   position: relative;
   top: 150px;
 }
 
 #nav-list {
-  background-color:	rgb(105, 105, 105); 
+  background-color: rgb(105, 105, 105); 
   width: 750px;
   height: 30px;
   border-radius: 5px;
