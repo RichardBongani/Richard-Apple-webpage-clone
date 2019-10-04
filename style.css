@@ -1,5 +1,3 @@
-
-
 .nav-link {
   display: inline;
   margin: 10px;
@@ -60,7 +58,7 @@ html {
 }
 
 .main-body{
-    text-align: center;
+  text-align: center;
 }
 
 .verse-link {
@@ -156,7 +154,7 @@ html {
 .nav-list2 {
   display: inline;
   position: relative;
-  bottom:65px; 
+  bottom: 65px; 
   left: 500px;
   font-size: 14px;
 }
