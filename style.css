@@ -1,6 +1,4 @@
- body {
-  margin: 0 auto;
- } 
+
 
 .nav-link {
   display: inline;
@@ -35,7 +33,7 @@ html {
   background-size: cover;
   height: 100%;
   overflow-x: hidden;
-  background-position: center 110%;
+  background-position: center 120%;
   background-repeat: no-repeat;
 }
 
@@ -48,8 +46,71 @@ html {
 }
 
 .question {
-  font-size: 70px !important;
-  font-weight: lighter;
+  height: 134px;
+  width: 980px;
+  position: relative;
+  left: 390px;
+  bottom: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 75px;
+  font-weight: normal;
+  margin: 2px;
+  padding: 5px;
+}
+
+.main-body{
+    text-align: center;
+}
+
+.verse-link {
+  text-align: left;
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+}
+
+.statement {
+  height: 176px;
+  width: 980px;
+  text-align: left;
+  color: white;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(119, 107, 107); 
+  position: relative;
+  left: 30px;
+  bottom: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.everyone-link {
+  text-align: left;
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+}
+
+.play {
+  height: 64px;
+  width: 980px;
+  display: inline-block;
+  border-width: 0px; 
+  border-style: none;
+  border-color: white;
+  position: relative;
+  bottom: 220px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 28px;
+}
+
+.play-link {
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+  display: inline-block;
+  height: 29px;
 }
 
 .column {
@@ -74,12 +135,17 @@ html {
   color: #1e90ff !important;
 }
 
+.privacy {
+  color: #1e90ff;
+}
+
 .details-terms {
   position: relative;
-  bottom: 50px;
-  left: 150px;
-  font-size: 13px;
+  bottom: 160px;
+  left: 145px;
+  font-size: 14px;
   color: rgb(105, 105, 105);
+  display: inline;
 }
 
 .nav-list {
@@ -87,11 +153,12 @@ html {
   text-decoration: none;
 }
 
-.nav-link2 {
+.nav-list2 {
   display: inline;
   position: relative;
-  bottom: 5px;
-  font-size: 15px;
+  bottom:65px; 
+  left: 500px;
+  font-size: 14px;
 }
 
 .reachus-link {
@@ -102,6 +169,8 @@ html {
   border-radius: 150px;
   width: 15px;
   height: 15px;
+  position: relative;
+  top: 3px;
 }
 
 .USA-flag {
@@ -123,6 +192,7 @@ html {
 .more-information {
   position: relative;
   top: 150px;
+  height: 0px;  
 }
 
 #nav-list {
@@ -134,5 +204,5 @@ html {
 
 .icon {
   position: relative;
-  bottom: 35px;
+  bottom: 125px;
 }
