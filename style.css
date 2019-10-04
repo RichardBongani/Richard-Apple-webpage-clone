@@ -1,7 +1,6 @@
 #nav-link {
   display: inline;
-  margin: 10px; 
-
+  margin: 10px;
 }
 
 a > #nav-link {
@@ -51,7 +50,7 @@ html {
 
 .column {
   float: right;
-  width: 25%;  
+  width: 25%;
 }
 
 .row::after {
@@ -68,7 +67,7 @@ html {
 }
 
 .link {
-  color: #1e90ff!important;
+  color: #1e90ff !important;
 }
 
 .details-terms {
@@ -93,7 +92,6 @@ html {
 
 a {
   color: #1e90ff; 
-
 }
 
 .my-us-image {
