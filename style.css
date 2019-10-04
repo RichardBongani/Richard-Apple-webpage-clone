@@ -1,151 +1,135 @@
 
-
-
-/*-----------nav---------------*/
-#nav-link{
-    display: inline;
-    margin: 10px; 
-
+#nav-link {
+  display: inline;
+  margin: 10px; 
 }
 
-
-
-#nav-link > a{
-    color:white;
+#nav-link > a {
+  color:white;
 }
 
-.my-apple{
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    position: relative;
-    top: 5px;
+.my-apple {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 5px;
 }
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
-
-.my-label{
-    float: right;
-    position: relative;
-    bottom: 20px;
-    right:550px;
+.my-label {
+  float: right;
+  position: relative;
+  bottom: 20px;
+  right: 550px;
 }
 
-/*------------Home Content-----------*/
 html {
-    background-image: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
-    background-size: cover;
-    height: 100%;
-    overflow-x: hidden;
-    background-position: center 110%;
-    background-repeat: no-repeat;
-
-
-  }
-
-#home{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    position: relative;
-    top: 65px;
-  
+  background-image: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  background-position: center 110%;
+  background-repeat: no-repeat;
 }
 
-.question{
-    font-size: 70px!important;
-    font-weight:lighter;
+#home {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 65px;
 }
 
-.column{
-    float:right;
-    width:25%;
-    
+.question {
+  font-size: 70px !important;
+  font-weight: lighter;
 }
 
-.row:after{
-    content:"";
-    display: table;
-    clear: both;
+.column {
+  float: right;
+  width: 25%;  
 }
 
-.about-apple{
-    position: relative;
-    bottom:85px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.link{
-    color:#1E90FF!important;
+.about-apple {
+  position: relative;
+  bottom: 85px;
 }
 
-.details-terms{
-    position: relative;
-    bottom: 50px;
-    left:150px;
-    font-size:13px;
-    color:rgb(105,105,105);
+.link {
+  color: #1E90FF !important;
 }
 
-.nav-list{
-    list-style-type: none;
-    text-decoration: none;
+.details-terms {
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+  font-size: 13px;
+  color: rgb(105, 105, 105);
 }
 
-.nav-link2{
-display: inline;
-position: relative;
-bottom: 5px;
-font-size: 15px;
+.nav-list {
+  list-style-type: none;
+  text-decoration: none;
 }
 
-a{
-color:#1E90FF; 
-
+.nav-link2 {
+  display: inline;
+  position: relative;
+  bottom: 5px;
+  font-size: 15px;
 }
 
-.my-us-image{
-    border-radius:150px;
-    width:15px;
-    height:15px;
-}
-.USA-flag{
-    float: right;
-    position: relative;
-    bottom:2px;
-    top:3px;
-    left: 4px;
+a {
+  color: #1E90FF; 
 }
 
-.nav-container{
-    float: right;
-    position: relative;
-    bottom: 120px;
-    right:120px;
-    height: 5px;
-  
+.my-us-image {
+  border-radius: 150px;
+  width: 15px;
+  height: 15px;
 }
 
-.about-apple{
-    position: relative;
-    top:90px;
-    right:23px;
+.USA-flag {
+  float: right;
+  position: relative;
+  bottom: 2px;
+  top: 3px;
+  left: 4px;
 }
 
-.more-information{
-    position: relative;
-    top:150px;
+.nav-container {
+  float: right;
+  position: relative;
+  bottom: 120px;
+  right: 120px;
+  height: 5px;
 }
 
-#nav-list{
-    background-color:	rgb(105,105,105); 
-    width: 750px;
-    height: 30px;
-    border-radius: 5px;
+.about-apple {
+  position: relative;
+  top: 90px;
+  right: 23px;
+}
 
+.more-information {
+  position: relative;
+  top: 150px;
+}
+
+#nav-list {
+  background-color:	rgb(105, 105, 105); 
+  width: 750px;
+  height: 30px;
+  border-radius: 5px;
 }
 
