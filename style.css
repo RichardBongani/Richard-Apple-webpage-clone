@@ -3,7 +3,7 @@
   margin: 10px;
 }
 
-a > #nav-link {
+.menu-link {
   color: white;
 }
 
@@ -90,8 +90,8 @@ html {
   font-size: 15px;
 }
 
-a {
-  color: #1e90ff; 
+.reachus-link {
+  color: #1e90ff !important;
 }
 
 .my-us-image {
@@ -127,4 +127,3 @@ a {
   height: 30px;
   border-radius: 5px;
 }
-
