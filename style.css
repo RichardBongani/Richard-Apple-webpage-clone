@@ -4,21 +4,30 @@
 /*-----------nav---------------*/
 #nav-link{
     display: inline;
-    margin: 10px;  
+    margin: 10px; 
+
+}
+
+
+
+#nav-link > a{
+    color:white;
 }
 
 .my-apple{
     width: 20px;
     height: 20px;
     border-radius: 20px;
+    position: relative;
+    top: 5px;
 }
 
 
 a{
     text-decoration: none;
-    color: white;
-
 }
+
+
 
 .my-label{
     float: right;
@@ -35,6 +44,8 @@ html {
     overflow-x: hidden;
     background-position: center 110%;
     background-repeat: no-repeat;
+
+
   }
 
 #home{
@@ -65,7 +76,7 @@ html {
 
 .about-apple{
     position: relative;
-    bottom:60px;
+    bottom:85px;
 }
 
 .link{
@@ -93,7 +104,8 @@ font-size: 15px;
 }
 
 a{
-color:#1E90FF;
+color:#1E90FF; 
+
 }
 
 .my-us-image{
@@ -115,11 +127,12 @@ color:#1E90FF;
     bottom: 120px;
     right:120px;
     height: 5px;
+  
 }
 
 .about-apple{
     position: relative;
-    top:100px;
+    top:90px;
     right:23px;
 }
 
@@ -129,8 +142,10 @@ color:#1E90FF;
 }
 
 #nav-list{
-    background-color:	rgb(72,72,72); 
+    background-color:	rgb(105,105,105); 
     width: 750px;
     height: 30px;
     border-radius: 5px;
+
 }
+
