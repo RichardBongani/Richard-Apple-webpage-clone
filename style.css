@@ -5,6 +5,7 @@
 
 .menu-link {
   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .my-apple {
@@ -138,7 +139,7 @@ html {
 
 .details-terms {
   position: relative;
-  bottom: 160px;
+  bottom: 190px;
   left: 145px;
   font-size: 14px;
   color: rgb(105, 105, 105);
@@ -156,10 +157,13 @@ html {
   bottom: 65px;
   left: 500px;
   font-size: 14px;
+  padding: 3px;
 }
 
 .reachus-link {
-  color: #1e90ff !important;
+  color: #156ec7 !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
 }
 
 .my-us-image {
@@ -178,14 +182,6 @@ html {
   left: 4px;
 }
 
-.nav-container {
-  float: right;
-  position: relative;
-  bottom: 120px;
-  right: 120px;
-  height: 5px;
-}
-
 .more-information {
   position: relative;
   top: 150px;
@@ -194,12 +190,60 @@ html {
 
 #nav-list {
   background-color: rgb(105, 105, 105);
-  width: 750px;
-  height: 30px;
-  border-radius: 5px;
+  width: 895px;
+  height: 33px;
+  border-radius: 3px;
+  border: 1px solid rgb(105, 105, 105);
+  position: relative;
+  left: 190px;
+  top: 75px;
 }
 
 .icon {
   position: relative;
   bottom: 125px;
+}
+
+.content {
+  font-size: 12.5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(105, 105, 105);
+}
+
+nav {
+  width: 990px;
+  background: linear-gradient(	#686868, 	#585858);
+  background: -moz-linear-gradient(	#686868, 	#585858);
+  background: -webkit-linear-gradient(	#686868, 	#585858);
+  height: 35px;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  left:150px;
+  top: 80px;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list {
+  float: left; 
+  position: relative;
+  bottom: 40px;
+}
+
+.main-nav, .list, .menu-link {
+  border-right: 1px solid #585858;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  background: linear-gradient(	#101010, 	#585858);
+  background: -moz-linear-gradient(	#101010, 	#585858);
+  background: -webkit-linear-gradient(	#101010, 	#585858);
 }
