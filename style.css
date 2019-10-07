@@ -66,13 +66,13 @@ html {
 .statement {
   height: 176px;
   width: 980px;
-  text-align: left;
+  text-align: center;
   color: white;
   border-width: 0;
   border-style: none;
   border-color: rgb(119, 107, 107);
   position: relative;
-  left: 320px;
+  left: 190px;
   bottom: 100px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 40px;
@@ -185,9 +185,9 @@ html {
 
 nav {
   width: 920px;
-  background: linear-gradient(	#686868, 	#585858);
-  background: -moz-linear-gradient(	#686868, 	#585858);
-  background: -webkit-linear-gradient(	#686868, 	#585858);
+  background: linear-gradient(#686868, #707070);
+  background: -moz-linear-gradient(#686868, #707070);
+  background: -webkit-linear-gradient(#686868, #707070);
   height: 35px;
   overflow: hidden;
   border-radius: 4px;
@@ -212,7 +212,7 @@ nav {
   border-right: 1px solid #585858;
   padding: 15px 17px;
   text-decoration: none;
-  display: inline-block;
+  display: block;
 }
 
 a:hover {
