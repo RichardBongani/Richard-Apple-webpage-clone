@@ -57,7 +57,7 @@ html {
   padding: 5px;
 }
 
-.main-body{
+.main-body {
   text-align: center;
 }
 
@@ -72,16 +72,15 @@ html {
   width: 980px;
   text-align: left;
   color: white;
-  border-width: 0px;
+  border-width: 0;
   border-style: none;
-  border-color: rgb(119, 107, 107); 
+  border-color: rgb(119, 107, 107);
   position: relative;
-  left: 30px;
+  left: 320px;
   bottom: 100px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 40px;
   padding: 5px;
-  text-align: center;
 }
 
 .everyone-link {
@@ -94,7 +93,7 @@ html {
   height: 64px;
   width: 980px;
   display: inline-block;
-  border-width: 0px; 
+  border-width: 0;
   border-style: none;
   border-color: white;
   position: relative;
@@ -154,7 +153,7 @@ html {
 .nav-list2 {
   display: inline;
   position: relative;
-  bottom: 65px; 
+  bottom: 65px;
   left: 500px;
   font-size: 14px;
 }
@@ -190,7 +189,7 @@ html {
 .more-information {
   position: relative;
   top: 150px;
-  height: 0px;  
+  height: 0;
 }
 
 #nav-list {
