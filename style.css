@@ -1,6 +1,24 @@
 .menu-link {
   color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: 3px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+body {
+  color: #333;
 }
 
 .my-apple {
@@ -77,6 +95,25 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 40px;
   padding: 5px;
+}
+
+#mysearch {
+  border-radius: 10px;
+  width: 155px;
+  height: 18px;
+}
+
+#search-icon {
+  position: relative;
+  left: 25px;
+  top:2px;
+}
+
+#search {
+  float: right;
+  position: relative;
+  right: 195px;
+  top: 52px;
 }
 
 .everyone-link {
@@ -174,7 +211,12 @@ html {
 
 .icon {
   position: relative;
-  bottom: 125px;
+  bottom: 108px;
+}
+
+.apple1  {
+  position: relative;
+  top: 15px;
 }
 
 .content {
@@ -184,7 +226,7 @@ html {
 }
 
 nav {
-  width: 920px;
+  width: 950px;
   background: linear-gradient(#686868, #707070);
   background: -moz-linear-gradient(#686868, #707070);
   background: -webkit-linear-gradient(#686868, #707070);
@@ -194,6 +236,7 @@ nav {
   position: relative;
   left:195px;
   top: 80px;
+  z-index: -1;
 }
 
 .main-nav {
@@ -206,10 +249,11 @@ nav {
   float: left; 
   position: relative;
   bottom: 40px;
+  border: 1.5px solid #585858;
 }
 
 .main-nav, .list, .menu-link {
-  border-right: 1px solid #585858;
+  border-width: 0 1px 0 0;
   padding: 15px 17px;
   text-decoration: none;
   display: block;
