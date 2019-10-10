@@ -156,8 +156,7 @@ html {
 
 .about-apple {
   position: relative;
-  bottom: 85px;
-  top: 109px;
+  top: 73px;
   right: 23px;
 }
 
@@ -212,6 +211,7 @@ html {
 .icon {
   position: relative;
   bottom: 108px;
+  height: 200px;
 }
 
 .apple1  {
@@ -234,9 +234,8 @@ nav {
   overflow: hidden;
   border-radius: 4px;
   position: relative;
-  left:195px;
+  left: 195px;
   top: 80px;
-  z-index: -1;
 }
 
 .main-nav {
@@ -249,7 +248,7 @@ nav {
   float: left; 
   position: relative;
   bottom: 40px;
-  border: 1.5px solid #585858;
+  border: 1px solid #585858;
 }
 
 .main-nav, .list, .menu-link {
@@ -259,10 +258,24 @@ nav {
   display: block;
 }
 
-a:hover {
-  background: linear-gradient(	#101010, 	#585858);
-  background: -moz-linear-gradient(	#101010, 	#585858);
-  background: -webkit-linear-gradient(	#101010, 	#585858);
+.play_icon {
+height: 30px;
+width: 45px;
+}
+
+.play_now {
+  position: relative;
+  top:265px;
+  left: 340px;
+}
+
+a.menu-link:hover {
+  background:	#404040;
+  max-width: 100%;
+}
+
+p.play:hover {
+  text-decoration: underline;
 }
 
 #myfooter {
@@ -273,4 +286,13 @@ a:hover {
 .nav-list {
   position: relative;
   top: 140px;
+}
+
+.my_apple_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.my_apple_logo:hover {
+  background: #404040;
 }
