@@ -249,9 +249,9 @@ nav {
   border: 1px solid #585858;
 }
 
-.main-nav
-,.list
-,.menu-link {
+.main-nav,
+.list,
+.menu-link {
   border-width: 0 1px 0 0;
   padding: 15px 17px;
   text-decoration: none;
