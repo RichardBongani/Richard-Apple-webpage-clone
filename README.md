@@ -1,4 +1,4 @@
-# Richard-Apple-webpage-clone
+# Apple-webpage-clone
 cloning an older apple website(solo)
 # What am I creating?
 I am creating a clone of an older apple webpage.
