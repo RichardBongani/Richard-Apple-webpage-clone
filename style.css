@@ -1,0 +1,298 @@
+.menu-link {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: 3px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  text-align: center;
+}
+
+body {
+  color: #333;
+}
+
+.my-apple {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.my-label {
+  float: right;
+  position: relative;
+  bottom: 20px;
+  right: 550px;
+}
+
+html {
+  background-image: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  background-position: center 120%;
+  background-repeat: no-repeat;
+}
+
+#home {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+}
+
+.question {
+  height: 134px;
+  width: 980px;
+  position: relative;
+  left: 390px;
+  bottom: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 75px;
+  font-weight: normal;
+  margin: 2px;
+  padding: 5px;
+}
+
+.main-body {
+  text-align: center;
+}
+
+.verse-link {
+  text-align: left;
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+}
+
+.statement {
+  height: 176px;
+  width: 980px;
+  text-align: center;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  border-color: rgb(119, 107, 107);
+  position: relative;
+  left: 190px;
+  bottom: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  padding: 5px;
+}
+
+#mysearch {
+  border-radius: 10px;
+  width: 155px;
+  height: 18px;
+}
+
+#search-icon {
+  position: relative;
+  left: 25px;
+  top: 2px;
+}
+
+#search {
+  float: right;
+  position: relative;
+  right: 195px;
+  top: 52px;
+}
+
+.everyone-link {
+  text-align: left;
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+}
+
+.play {
+  height: 64px;
+  width: 980px;
+  display: inline-block;
+  border-width: 0;
+  border-style: none;
+  border-color: white;
+  position: relative;
+  bottom: 220px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 28px;
+}
+
+.play-link {
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+  display: inline-block;
+  height: 29px;
+}
+
+.column {
+  float: right;
+  width: 25%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-apple {
+  position: relative;
+  top: 73px;
+  right: 23px;
+}
+
+.link {
+  color: #1e90ff !important;
+}
+
+.privacy {
+  color: #1e90ff;
+}
+
+.details-terms {
+  position: relative;
+  bottom: 190px;
+  left: 145px;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+  display: inline;
+}
+
+.nav-list2 {
+  display: inline;
+  position: relative;
+  bottom: 35px;
+  left: 500px;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.reachus-link {
+  color: #156ec7 !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+}
+
+.my-us-image {
+  border-radius: 150px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+}
+
+.USA-flag {
+  float: right;
+  position: relative;
+  bottom: 2px;
+  top: 3px;
+  left: 4px;
+}
+
+.icon {
+  position: relative;
+  bottom: 108px;
+  height: 200px;
+}
+
+.apple1 {
+  position: relative;
+  top: 15px;
+}
+
+.content {
+  font-size: 12.5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(105, 105, 105);
+}
+
+nav {
+  width: 950px;
+  background: linear-gradient(#686868, #707070);
+  background: -moz-linear-gradient(#686868, #707070);
+  background: -webkit-linear-gradient(#686868, #707070);
+  height: 35px;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  left: 195px;
+  top: 80px;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list {
+  float: left;
+  position: relative;
+  bottom: 40px;
+  border: 1px solid #585858;
+}
+
+.main-nav,
+.list,
+.menu-link {
+  border-width: 0 1px 0 0;
+  padding: 15px 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.play_icon {
+  height: 30px;
+  width: 45px;
+}
+
+.play_now {
+  position: relative;
+  top: 265px;
+  left: 340px;
+}
+
+a.menu-link:hover {
+  background: #404040;
+  max-width: 100%;
+}
+
+p.play:hover {
+  text-decoration: underline;
+}
+
+#myfooter {
+  position: relative;
+  top: 175px;
+}
+
+.nav-list {
+  position: relative;
+  top: 140px;
+}
+
+.my_apple_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.my_apple_logo:hover {
+  background: #404040;
+}
